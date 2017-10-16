@@ -3,8 +3,8 @@ const fs = require('fs');
 
 // How many entries you want
 const ENTRIES = 500;
-const firstName = 'John';
-const lastName = 'Biggens';
+const firstName = 'Oliver';
+const lastName = 'Breading';
 // YYYY-MM-DD
 const dateOfBirth = '1984-08-08';
 // What number you want the emails to start on
@@ -41,7 +41,7 @@ function main() {
         If you want to use the gmail + method you can do something like this  ->  ultraboost+${i}@gmail.com
         If you have a catchall domain, you don't need a + , like this         ->  ultraboost${i}@customdomain.com
         */
-        const email = `ultraboost${i}@deadass.win`
+        const email = `oliverbreading@gmail.com`
     
         request({
             method: 'post',
